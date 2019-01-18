@@ -4,16 +4,19 @@
 // Inherit the parent event
 event_inherited();
 
+if state == PLAYER.DIE
+	exit;
+
 var _x_input = (keyboard_check(vk_right)-keyboard_check(vk_left));
 
 if _x_input != 0 {
 	truestate_switch(PLAYER.WALK)
-	image_xscale = _x_input;
+	facing_dir = _x_input;
 } else {
 	truestate_switch(PLAYER.STAND)
 }
 
-velocity[0] = (_x_input) * 2;
+velocity[0] = approach(velocity[0], 2*_x_input, 0.25);
 
 velocity[1] += 0.18;
 
@@ -52,8 +55,19 @@ if _do_jump {
 		jump_count--;
 	jump_end = 0;
 	velocity[1] = -3
+	repeat(3) instance_create_depth(x, bbox_bottom, depth-10, obj_dust)
+}
+if keyboard_check_released(vk_up) {
+	if velocity[1] < 0 {
+		velocity[1] *= 0.75
+	}
 }
 
-velocity = do_collision(velocity);
-//x+=velocity[0];
-//y+=velocity[1];
+velocity = do_collision(velocity, collide);
+
+if !place_meeting(x, y+1, obj_solid) {
+	truestate_switch(PLAYER.JUMP)
+}
+
+//xscale = lerp(xscale, 1+abs(velocity[0]/5), 0.5);
+//yscale = lerp(yscale, 1+abs(velocity[1]/10), 0.5);

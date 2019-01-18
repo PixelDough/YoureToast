@@ -13,5 +13,5 @@ if(argument0==step)
 else if(argument0==draw)
 {
 	//And this code will be exeucted during the draw event.
-	draw_self();
+	
 }

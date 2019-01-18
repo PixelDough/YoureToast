@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0328b8f2-731a-427b-ab9c-c920103a8fe3",
+            "Value": {
+                "id": "e4b51756-f41e-4414-b928-2e77687aaf52",
+                "resourcePath": "scripts\\state_player_jump\\state_player_jump.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0a1045fd-cc8b-4a94-868e-a37652ff7714",
             "Value": {
                 "id": "ac866d46-f60a-4f63-803a-d45ec7958f6b",
@@ -175,6 +183,14 @@
             }
         },
         {
+            "Key": "2f8efde1-7910-4134-8c74-90096800ddd0",
+            "Value": {
+                "id": "7533afb7-87c0-4d32-a272-f1ff209015d9",
+                "resourcePath": "sprites\\spr_player_jump\\spr_player_jump.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "33798d56-5527-4449-ba61-9eb7d1769ad3",
             "Value": {
                 "id": "103c93f5-1cee-4621-95a4-1f56c0811e4a",
@@ -287,6 +303,14 @@
             }
         },
         {
+            "Key": "60aa6dd7-f85c-49a1-8137-0088f112121f",
+            "Value": {
+                "id": "cc1b4edf-0ff6-4ec4-af25-8bb243704b81",
+                "resourcePath": "notes\\credits.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "63db3388-7c8b-4411-b911-977c98361a4a",
             "Value": {
                 "id": "f6122232-1dcb-418b-a23f-9f3014c46fd4",
@@ -348,6 +372,14 @@
                 "id": "821cfff2-24aa-4450-ab20-2678da6d80b2",
                 "resourcePath": "datafiles_yy\\TrueState Manual 1.0.1.pdf.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "7f6d0f04-868c-46f1-82bb-e492cd4361e7",
+            "Value": {
+                "id": "6b4324fa-670c-4539-8e3d-cf2d9a3d6bc0",
+                "resourcePath": "scripts\\state_player_die\\state_player_die.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -420,6 +452,22 @@
                 "id": "05b8608d-8472-4651-8339-361c9682b230",
                 "resourcePath": "objects\\obj_truestate\\obj_truestate.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b6f57f5f-de63-4959-a012-5fd96d28c9ff",
+            "Value": {
+                "id": "518c3595-82ad-40fc-8533-cd967962856c",
+                "resourcePath": "sprites\\spr_player_die\\spr_player_die.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bb431b22-9b36-42c4-8ca5-28ef0b712504",
+            "Value": {
+                "id": "e5bf9d45-77f5-4e72-9bf1-6bdbe4e8b35d",
+                "resourcePath": "sounds\\mus_title\\mus_title.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -597,6 +645,8 @@
         "1c5c21bb-e927-4333-8d42-9332541c2b7e",
         "5b755407-8f03-4e97-a8cd-c8d961794319",
         "13d29d92-c3ca-450f-9ac6-636ba0ea858d",
+        "0328b8f2-731a-427b-ab9c-c920103a8fe3",
+        "7f6d0f04-868c-46f1-82bb-e492cd4361e7",
         "2080eba2-7de6-4c44-8033-a0ed1e7c7358",
         "ffb2a991-504f-4b20-be50-4e09b350578c",
         "0d0030ff-9438-48c5-b37b-306135bbb9a9",

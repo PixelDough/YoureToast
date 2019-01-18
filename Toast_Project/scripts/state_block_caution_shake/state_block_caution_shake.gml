@@ -4,8 +4,9 @@
 if(argument0==step)
 {
 	//This code will be executed during the step event.
-	instance_create_depth(random_range(bbox_left, bbox_right), random_range(bbox_top, bbox_bottom), depth-10, obj_dust);
-	if state_timer > 5 {
+	if state_timer == 0
+		repeat(5) instance_create_depth(random_range(bbox_left, bbox_right), (bbox_bottom), depth-10, obj_dust);
+	if state_timer > 10 {
 		truestate_switch(CAUTION.FALL);
 	}
 	

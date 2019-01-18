@@ -1,4 +1,3 @@
-/// @description  approach(start, end, shift);
 /// @param start
 /// @param  end
 /// @param  shift

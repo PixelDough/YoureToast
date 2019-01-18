@@ -7,17 +7,25 @@ event_inherited();
 enum PLAYER {
 	STAND,
 	WALK,
-	JUMP
+	JUMP,
+	DIE
 }
 
 truestate_create_state(PLAYER.STAND, state_player_stand)
 truestate_create_state(PLAYER.WALK, state_player_walk)
+truestate_create_state(PLAYER.JUMP, state_player_jump)
+truestate_create_state(PLAYER.DIE, state_player_die)
 
 truestate_set_default(PLAYER.STAND)
 
 
 velocity = [0, 0]
 velocity_ride = [0, 0];
+facing_dir = 1;
+xscale = 1;
+yscale = 1;
+
+collide = true;
 
 myRide = 0;
 
