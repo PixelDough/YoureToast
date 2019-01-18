@@ -1,0 +1,8 @@
+You can jump if
+
+	You have 1 or more jumps left
+		jump_count > 0
+	You have been in the air for less than 5 frames
+		jump_buffer > 0
+	You have pressed the jump button less than 5 frames ago
+		jump_end > 0
