@@ -5,7 +5,7 @@ if _rider {
 		instance_create_depth(random_range(bbox_left, bbox_right), random_range(bbox_top, bbox_bottom), depth-10, obj_dust)
 	}
 	if keyboard_check(vk_up)
-		_rider.velocity[1] = -7;
+		_rider.velocity[1] = -5;
 	else
 		_rider.velocity[1] = -2;
 	image_index = 0;

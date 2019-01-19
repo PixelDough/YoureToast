@@ -8,10 +8,11 @@ if myRide and collide {
 		velocity[1] = 0;
 	}
 	
+	x += myRide.x-myRide.xprevious;
 	if myRide.velocity[0] != 0 {
 		while place_meeting(x, y, obj_solid)
 			x -= sign(x-xprevious)
-		x += myRide.x-myRide.xprevious;
+		
 	}
 }
 if !instance_place(x, y+1, obj_solid) {

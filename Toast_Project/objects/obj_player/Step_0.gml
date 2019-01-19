@@ -18,7 +18,12 @@ if _x_input != 0 {
 
 velocity[0] = approach(velocity[0], 2*_x_input, 0.25);
 
-velocity[1] += 0.18;
+var _grav_mul = 1;
+if velocity[1] > 0 {
+	_grav_mul = 1.5;
+}
+
+velocity[1] += grav*_grav_mul;
 
 var _do_jump = false;
 if keyboard_check_pressed(vk_up) {
@@ -41,7 +46,7 @@ if jump_end > 10 {
 }
 
 if place_meeting(x, y+1, obj_solid) {
-	jump_count = 1;
+	jump_count = 2;
 	jump_buffer = 15;
 	jump_end = 0;
 } else {
@@ -51,10 +56,9 @@ if place_meeting(x, y+1, obj_solid) {
 // Jumping
 if _do_jump {
 	myRide = noone;
-	if !place_meeting(x, y+1, obj_solid)
-		jump_count--;
+	jump_count--;
 	jump_end = 0;
-	velocity[1] = -3
+	velocity[1] = -jh
 	repeat(3) instance_create_depth(x, bbox_bottom, depth-10, obj_dust)
 }
 if keyboard_check_released(vk_up) {

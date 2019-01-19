@@ -12,29 +12,33 @@ if instance_place(x, y, obj_solid) and argument1
 
 
 // Check y collision and move
-if instance_place(x, y+_vely, obj_solid) and argument1 {
-	// Make the solid object you're standing on the ride object
-	if (_vely > 0)
-		myRide = instance_place(x, y+_vely, obj_solid);
+if _vely != 0 {
+	if instance_place(x, y+_vely, obj_solid) and argument1 {
+		// Make the solid object you're standing on the ride object
+		if (_vely > 0)
+			myRide = instance_place(x, y+_vely, obj_solid);
 	
-	while !instance_place(x, y+sign(_vely), obj_solid) {
-		y+=sign(_vely);
+		while !instance_place(x, y+sign(_vely), obj_solid) {
+			y+=sign(_vely);
+		}
+		_vely = 0;
+		y = round(y);
 	}
-	_vely = 0;
-	y = round(y);
+	y += _vely;
 }
-y += _vely;
 
 
 // Check x collision and move
-if instance_place(x+_velx, y, obj_solid) and argument1  {
-	while !instance_place(x+sign(_velx), y, obj_solid) {
-		x+=sign(_velx);
+if _velx != 0 {
+	if instance_place(x+_velx, y, obj_solid) and argument1  {
+		while !instance_place(x+sign(_velx), y, obj_solid) {
+			x+=sign(_velx);
+		}
+		_velx = 0;
+		x = round(x);
 	}
-	_velx = 0;
-	x = round(x);
+	x += _velx;
 }
-x += _velx;
 
 
 _vel = [_velx, _vely];

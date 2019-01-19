@@ -33,3 +33,6 @@ jump_count = 2;
 jump_buffer = 5;
 jump_end = 5;
 jump_try = false;
+
+jh = 3;
+grav = 0.09
