@@ -1,0 +1,5 @@
+Stage made from things found in each area (ex. Cups, Blenders, and Jars in Kitchen).
+Stages:
+	Kitchen
+	Laboratory
+	Space

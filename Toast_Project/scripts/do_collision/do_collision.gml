@@ -11,12 +11,13 @@ if instance_place(x, y, obj_solid) and argument1
 	truestate_switch(PLAYER.DIE)
 
 
+if (_vely >= 0)
+	myRide = instance_place(x, y+1, obj_solid);
+
 // Check y collision and move
 if _vely != 0 {
-	if instance_place(x, y+_vely, obj_solid) and argument1 {
+	if instance_place(x, y+(_vely), obj_solid) and argument1 {
 		// Make the solid object you're standing on the ride object
-		if (_vely > 0)
-			myRide = instance_place(x, y+_vely, obj_solid);
 	
 		while !instance_place(x, y+sign(_vely), obj_solid) {
 			y+=sign(_vely);

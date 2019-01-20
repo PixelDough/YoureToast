@@ -1,8 +1,20 @@
-/// @param start
-/// @param  end
-/// @param  shift
-
-if (argument0 < argument1)
-    return min(argument0 + argument2, argument1); 
+/// @description approach(current, target, amount)
+/// @param current
+/// @param  target
+/// @param  amount
+/*
+ * Example use:
+ * x = approach(x, target_x, 2);
+ */
+var c = argument0;
+var t = argument1;
+var a = argument2;
+if (c < t)
+{
+    c = min(c+a, t); 
+}
 else
-    return max(argument0 - argument2, argument1);
+{
+    c = max(c-a, t);
+}
+return c;

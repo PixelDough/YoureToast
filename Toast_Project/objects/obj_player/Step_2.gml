@@ -1,4 +1,6 @@
 
+if state == PLAYER.DIE exit;
+
 // Ride movement
 if myRide and collide {
 	if myRide.velocity[1] != 0 {
@@ -8,8 +10,9 @@ if myRide and collide {
 		velocity[1] = 0;
 	}
 	
-	x += myRide.x-myRide.xprevious;
+	
 	if myRide.velocity[0] != 0 {
+		x += myRide.x-myRide.xprevious;
 		while place_meeting(x, y, obj_solid)
 			x -= sign(x-xprevious)
 		

@@ -7,6 +7,7 @@ if(argument0==step)
 	image_speed = 0;
 	image_index = 1;
 	sprite_index = spr_player_die;
+	mask_index = noone;
 	
 	if state_timer == 0
 		velocity = [0, -7];

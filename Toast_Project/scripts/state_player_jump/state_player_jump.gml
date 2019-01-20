@@ -6,6 +6,7 @@ if(argument0==step)
 	//This code will be executed during the step event.
 	image_index = velocity[1] > 0;
 	sprite_index = spr_player_jump;
+	if isTiny sprite_index = spr_player_walk_tiny;
 }
 //DRAW---------------------------------------
 else if(argument0==draw)

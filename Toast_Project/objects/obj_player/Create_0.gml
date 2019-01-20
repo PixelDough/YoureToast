@@ -30,9 +30,13 @@ collide = true;
 myRide = 0;
 
 jump_count = 2;
+jump_count_max = 2;
 jump_buffer = 5;
 jump_end = 5;
 jump_try = false;
+
+isTiny = false;
+hasShield = false;
 
 jh = 3;
 grav = 0.09

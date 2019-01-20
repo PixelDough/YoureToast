@@ -8,6 +8,7 @@ if(argument0==step)
 	if state_timer == 0
 		image_index = 1;
 	sprite_index = spr_player_walk;
+	if isTiny sprite_index = spr_player_walk_tiny;
 }
 //DRAW---------------------------------------
 else if(argument0==draw)

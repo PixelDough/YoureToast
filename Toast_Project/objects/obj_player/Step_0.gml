@@ -23,7 +23,8 @@ if velocity[1] > 0 {
 	_grav_mul = 1.5;
 }
 
-velocity[1] += grav*_grav_mul;
+if !grounded()
+	velocity[1] += grav*_grav_mul;
 
 var _do_jump = false;
 if keyboard_check_pressed(vk_up) {
@@ -54,11 +55,17 @@ if place_meeting(x, y+1, obj_solid) {
 }
 
 // Jumping
+var _jh = jh;
+
 if _do_jump {
 	myRide = noone;
 	jump_count--;
 	jump_end = 0;
-	velocity[1] = -jh
+	velocity[1] = -_jh
+	play_sound(snd_jump)
+	if !place_meeting(x, y+1, obj_solid) {
+		velocity[0] = 2*_x_input;
+	}
 	repeat(3) instance_create_depth(x, bbox_bottom, depth-10, obj_dust)
 }
 if keyboard_check_released(vk_up) {
@@ -72,6 +79,9 @@ velocity = do_collision(velocity, collide);
 if !place_meeting(x, y+1, obj_solid) {
 	truestate_switch(PLAYER.JUMP)
 }
+
+//image_xscale = scale;
+//image_yscale = scale;
 
 //xscale = lerp(xscale, 1+abs(velocity[0]/5), 0.5);
 //yscale = lerp(yscale, 1+abs(velocity[1]/10), 0.5);
