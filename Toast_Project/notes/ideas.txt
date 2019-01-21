@@ -1,5 +1,18 @@
+Story:
+	A scientist gave life to a piece of toast, and is putting it through test trials. However, the toast
+	escapes and goes with Mac, the lab assistant, who must conduct the scientist's tests over the phone.
+
+Doc: Eurika! I did it! I gave life to a piece of toast!
+Mac: Uh, doc... Why a piece of toast?
+Doc: I was hungry... Anywho, check it out.
+Doc: Oh, I should open that door for it. It seems to want to get in that toaster.
+
+
 Stage made from things found in each area (ex. Cups, Blenders, and Jars in Kitchen).
+
 Stages:
+	Lab(Tutorial)
 	Kitchen
 	Laboratory
+	Pirate Ship
 	Space

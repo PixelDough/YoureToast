@@ -25,8 +25,6 @@ if obj_player.x > bbox_right {
 //x = obj_player.x
 //y = obj_player.y
 
-
-
 x = clamp(x, _width/2, room_width-(_width/2));
 y = clamp(y, _height/2, room_height-(_height/2));
 

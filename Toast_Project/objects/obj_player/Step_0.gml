@@ -80,6 +80,10 @@ if !place_meeting(x, y+1, obj_solid) {
 	truestate_switch(PLAYER.JUMP)
 }
 
+if bbox_top > room_height {
+	truestate_switch(PLAYER.DIE);
+}
+
 //image_xscale = scale;
 //image_yscale = scale;
 
