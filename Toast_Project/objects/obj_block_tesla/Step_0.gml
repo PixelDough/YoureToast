@@ -1,4 +1,12 @@
 
+if instance_exists(obj_switch) {
+	if obj_switch.OPEN {
+		sprite_index = spr_block_tesla_off;
+		exit;
+	}
+}
+sprite_index = spr_block_tesla;
+
 var _hitR = collision_line(x+8, y+8, x+room_width, y, obj_block_tesla, false, true)
 if _hitR {
 	for (var _x=0; _x<distance_to_object(_hitR); _x+=16) {

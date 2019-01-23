@@ -1,12 +1,12 @@
 /// @description 
 
 velocity = [0, 0];
-speed = 7;
+speed = 12;
 direction = 0;
 
 life = 0;
 
-ignore_instance = place_meeting(x, y, obj_solid);
+ignore_instance = instance_place(x, y, obj_solid);
 
 hasHit = false;
 hitX = 0;

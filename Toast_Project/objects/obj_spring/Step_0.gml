@@ -5,6 +5,7 @@ if _rider {
 		_rider.velocity[1] = -5;
 	else
 		_rider.velocity[1] = -2;
+	play_sound(snd_spring)
 	image_index = 0;
 	sprite_index = spr_spring_bounce;
 }

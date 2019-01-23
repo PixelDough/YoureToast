@@ -74,13 +74,19 @@ if keyboard_check_released(vk_up) {
 	}
 }
 
+
+var _grounded = place_meeting(x, y+1, obj_solid)
+
 velocity = do_collision(velocity, collide);
+
+if !_grounded and place_meeting(x, y+1, obj_solid)
+	play_sound(snd_land2)
 
 if !place_meeting(x, y+1, obj_solid) {
 	truestate_switch(PLAYER.JUMP)
 }
 
-if bbox_top > room_height {
+if bbox_top-velocity[1] > room_height+sprite_height {
 	truestate_switch(PLAYER.DIE);
 }
 
