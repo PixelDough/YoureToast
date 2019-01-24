@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-if state == PLAYER.DIE
+if state == PLAYER.DIE or instance_exists(obj_dialog)
 	exit;
 
 var _x_input = (keyboard_check(vk_right)-keyboard_check(vk_left));

@@ -3,7 +3,7 @@ Story:
 	escapes and goes with Mac, the lab assistant, who must conduct the scientist's tests over the phone.
 	Eventually, after returning to the lab and conducting a few more experiments with Doc, Mac must take
 	the Toast into outer-space for the final tests. However, upon arriving in space, Doc reveals his evil
-	plot. He was made fun of for looking like a piece of toast, so he is making a super-toaster that will 
+	plot. He was made fun his science fair project on toast, so he is making a super-toaster that will 
 	turn everybody in the world into toast.
 
 Stage made from things found in each area (ex. Cups, Blenders, and Jars in Kitchen).
