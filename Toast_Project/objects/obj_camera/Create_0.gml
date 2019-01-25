@@ -1,10 +1,13 @@
 
 velocity = [0,0]
 
-camera_set_view_size(view_camera[view_current], camera_get_view_width(view_camera[view_current]), camera_get_view_height(view_camera[view_current]))
+width = 512;
+height = 288;
 
-width = camera_get_view_width(view_camera[view_current]);
-height = camera_get_view_height(view_camera[view_current]);
+camera_set_view_size(view_camera[0], width, height)
+
+x_off = 0;
+y_off = 0;
 
 gameScale = 2;
 window_set_size(width*gameScale, height*gameScale)

@@ -9,7 +9,7 @@ Doc: Let's put our toasty friend to the test.
 Kid: What are those striped blocks?
 Doc: They are loose and will fall if the toast's weight is put on it.
 Kid: I see... I hope it doesn't crush itself...
-Doc: Don't worry, if anything bad happens, or the toast get's stuck, I can just restart the test for it.
+Doc: Don't worry, if anything bad happens, or the toast gets stuck, I can just restart the test for it.
 
 Kid: Hey, if it keeps going in that toaster, won't it get all dark and burnt?
 Doc: I thought about that. I removed the toasting mechanisms from the toaster so that doesn't happen.
@@ -24,9 +24,10 @@ Doc: If that's what FLOATS YOUR BOAT! Ha ha ha ha!
 Doc: Hm...
 Kid: What is it, Doc? Is something wrong?
 Doc: No, I'm just thinking... Could you take the toast home with you tonight? I want to see how it reacts
-to a different environment.
+to a... "Different" environment.
 Kid: Uh... Er... I don't know... How about -
 Doc: Jolly good show! I'm heading out, call me if you need help running the tests!
+*Door slam sound*
 Kid: I guess it's just you and me, little guy...
 
 
@@ -41,6 +42,7 @@ Doc: I'm sure it'll jump for joy after trying it!
 Kid: It seems that, when eating STAWBERRY JELLY, the toast can jump in the air more.
 Doc: Incredible observation! Write down any observations you make in a notebook!
 Kid: Oh, okay, let me go find one...
+Doc: It might be useful if you ever try to take over the world! Ha ha ha!
 
 Kid: Those spikes look painful... Can they hurt him? Are you sure our little friend is okay?
 Doc: Of course!
@@ -51,11 +53,11 @@ Kid: ...
 Kid: This is really stressfull... I don't feel like I'm building these tests properly...
 Doc: Try to relax. You'll get the hang of it! Practice makes perfect!
 Kid: Okay... What is the data from these tests being used for?
-Doc: Just, uh... Toast related things I guess.
+Doc: Just, uh... Toast related things.
 
 Kid: Hey Doc, you said to do tests where I feel most comfortable, right?
 Doc: Yes, while we were at the lab!
-Kid: I always feel so calm when I'm on the open sea. Can I do the tests there?
+Kid: I always feel calm when I'm on the open sea. Can I do the tests there?
 Doc: I don't see why not! Just don't let the toast get too soggy! Ha ha ha!
 
 
@@ -68,9 +70,9 @@ Kid: Perfect timing, must have just lost signal.
 Kid: What was that? Oh... Oh no... Pirates...
 
 Kid: Can we please just settle this... Peacefully?
-Pirate: Peaceful! Har har har! We can talk about peace once you empty yer pockets!
+Pirate: Peaceful! Har har har! We can talk about peace once ye empty yer pockets!
 Kid: But I don't have any gold or anything!
-Pirate: Then hand over that curiosity you seem so interested in...
+Pirate: Then hand over that there treasure you seem so interested in...
 Kid: (The experiment!)
 Pirate: I guess I'll have to take it by force! Tie the boy up in me quarters, I'll grab the tank!
 
@@ -91,4 +93,75 @@ Kid: Okay, but don't throw the tank in! I don't know how water will effect the t
 Pirate: Har har har, ye don't know when to stop talkin'! Off the plank!
 
 
---Chapter 4: The Temple---
+---Chapter 4: The Temple---
+Kid: Ooooh... My head... Where are we?
+Kid: I've never seen this island before... My dad told me of an ellusive uncharted island, could this be it?
+Kid: C'mon little guy, let's go look around...
+----------
+???: *rustling*
+Kid: What was that? Who's there?
+Native: Hak te hun kala.
+Kid: What?
+Native: Ke hagu tan houka!
+Kid: Hey! Where are you taking me?
+
+Kid: Wow, if you had told me this morning that I'd be held captive by an ancient civilization with a living piece of toast...
+Kid: I wouldn't have believed you.
+Native: Eeki nukka gahn ta hula.
+Kid: They have some nice drawings on the walls... Looks like...
+Kid: Somebody getting sacrificed...
+Native: Kala tan houka! Kala tan houka!
+
+Native: Goka nak tan houka!
+Kid: Well I guess this is it... I'm about to be thrown into a sacrificial lava pit, and here I am talking to a piece of toast...
+Native: Houka ugu tan deka!
+Kid: Wait a minute... They're setting me down... This must be a temple of some sort, and they're... Bowing down to me?
+Kid: Hm, they're pointing to the toast... Maybe they think I'm a god for creating life or something!
+
+Native: Houka gan koguku ta ga kuta! Kala tan houka, dala ga goka nak tan deka!
+Kid: I guess he's giving some sort of ceremonial speech... I wonder what it's all about. "This man has brought life to toast!"
+Kid: Ha ha ha! I guess you could say they're giving a TOAST to me!
+
+Kid: Wow, I'm pretty lucky! I'm never letting you out of my sight, my toasty friend!
+Kid: Hm, I'm getting a call... I must barely have signal!
+Doc: Are you alright, young man? I lost connection, and now my systems say you're in the middle of the ocean!
+Kid: Don't worry Doc! I'm on the island my dad always told me stories about! There's an ancient civilization worshiping me right now!
+Doc: Well I need you back at the lab, to conduct some final tests before the experiment is ready! Might as well test my teleporter...
+Kid: Wait! We've never tested it at this long range before! What if-
+Doc: See you in a jiffy!
+
+
+---Chapter 5: The Graveyard---
+Kid: Hey... this isn't the lab? Where am I now?
+Gravekeeper: You're here.
+Kid: AH! Who are you?
+Gravekeeper: I'm the Gravekeeper here.
+Kid: Doc's teleporter test clearly did NOT work as planned...
+----------
+Gravekeeper: Teleporter huh? Neat.
+Kid: You don't seem surprised, or scared at all...
+Gravekeeper: When you've seen the things I've seen at this graveyard, you would understand why...
+Kid: Oh. You mean like ghosts?
+Gravekeeper: On a good night, I suppose. There's an old shack way over there that's protected. Good luck!
+*door slams*
+Kid: Wait! Don't leave me out here!
+Kid: Well, at least the stonework isn't so bad.
+
+Kid: First I got ambushed by pirates, and subsequently thrown overboard.
+Kid: Next I almost got sacrificed by an ancient civilization.
+Kid: Now I'm being chased by ghosts in a dark graveyard.
+Kid: What's next, will I be launched into space? Will some plot twist happen that causes the fate of the world to rest in my hands?
+Kid: I'm not sure if I'm ready to find out.
+
+Kid: These ghosts seem pretty stubborn... At least they give me a break every now and then.
+Kid: This has been a long day... I should find a place to get some sleep.
+
+Kid: I think I see the shack that the gravekeeper was talking about. I'm almost there!
+
+Kid: Whew... I made it.
+*door slam*
+Kid: It's good to finally feel safe again...
+Kid: Goodnight, toast. We're safe now...
+
+
+---Chapter 6: The Secret Lab---

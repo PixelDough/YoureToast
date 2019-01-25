@@ -2,6 +2,12 @@
 if keyboard_check_pressed(vk_down) {
 	// Check if the line has finished typing.
 	if char >= string_length(dialog[@ line, 2]) {
+		if dialog[@ line, 4] != noone {
+			if dialog[@ line, 5] != noone
+				script_execute(dialog[@ line, 4], dialog[@ line, 5]);
+			else
+				script_execute(dialog[@ line, 4])
+		}
 		// Check if the current line is the last line.
 		if line >= array_height_2d(dialog)-1 {
 			instance_destroy();

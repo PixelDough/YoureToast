@@ -1,5 +1,5 @@
 
-display_set_gui_size(obj_camera.width, obj_camera.height)
+display_set_gui_size(768, 432)
 
 draw_set_color(c_black)
 //draw_set_alpha(0.5)

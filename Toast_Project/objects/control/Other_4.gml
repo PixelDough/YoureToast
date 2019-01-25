@@ -1,6 +1,6 @@
 
-if room == parent or room == setup {
+if room == parent {
 	room_goto_next();
 }
 
-generate_tiles();
+//generate_tiles();

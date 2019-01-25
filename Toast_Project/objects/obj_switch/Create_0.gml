@@ -18,4 +18,4 @@ truestate_create_state(SWITCH.CLOSING, state_door_closing);
 
 truestate_set_default(SWITCH.CLOSED)
 
-OPEN = false;
+
