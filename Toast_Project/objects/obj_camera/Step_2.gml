@@ -29,10 +29,13 @@ if obj_player.facing_dir > 0 {
 	x_off = lerp(x_off, -16, 0.05);
 }
 
+x_shake = lerp(x_shake, 0, 0.2);
+y_shake = lerp(y_shake, 0, 0.2);
+
 x = obj_player.x + x_off;
 y = obj_player.y + y_off;
 
 x = clamp(x, _width/2, room_width-(_width/2));
 y = clamp(y, _height/2, room_height-(_height/2));
 
-camera_set_view_pos(view_camera[view_current], (x-_width/2), (y-_height/2))
+camera_set_view_pos(view_camera[view_current], (x-_width/2)+x_shake, (y-_height/2)+y_shake)

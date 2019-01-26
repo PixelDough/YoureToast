@@ -1,4 +1,8 @@
 
+if array_equals(dialog, []) {
+	script_execute(dialog_script);
+}
+
 if keyboard_check_pressed(vk_down) {
 	// Check if the line has finished typing.
 	if char >= string_length(dialog[@ line, 2]) {

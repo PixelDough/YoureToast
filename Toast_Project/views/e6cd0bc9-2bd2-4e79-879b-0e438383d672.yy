@@ -8,7 +8,7 @@
         "170e3893-8d91-435c-a186-0b604b2f4eda"
     ],
     "filterType": "GMScript",
-    "folderName": "Dialog Events",
+    "folderName": "Events",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

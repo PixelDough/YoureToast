@@ -7,4 +7,9 @@ if !ENABLED
 	exit;
 
 
-instance_create_layer(0, 0, "META", obj_dialog);
+var _dialog = instance_create_layer(0, 0, "META", obj_dialog);
+
+if dialog_script == noone
+	dialog_script = dialog_none;
+
+_dialog.dialog_script = dialog_script;
