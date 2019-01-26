@@ -1943,6 +1943,14 @@
             }
         },
         {
+            "Key": "ead19d9e-b0c4-42f8-b30e-c679b1786ac5",
+            "Value": {
+                "id": "645c2ccc-28e9-4dd2-a4de-0803eb361aa6",
+                "resourcePath": "objects\\obj_dialog\\obj_dialog.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ec8ac19b-40a5-496a-82ff-da21621dea65",
             "Value": {
                 "id": "bcbcb027-e3ac-4574-b5da-4be734dedb6b",
