@@ -706,7 +706,7 @@
             "hspeed": 0,
             "htiled": false,
             "inheritLayerDepth": false,
-            "inheritLayerSettings": true,
+            "inheritLayerSettings": false,
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "layers": [
@@ -716,7 +716,7 @@
             "m_serialiseFrozen": false,
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "spriteId": "64195268-9d84-42b5-98dd-bc4bba22a951",
+            "spriteId": "6d365758-8235-46e4-944f-eada16303efc",
             "stretch": true,
             "userdefined_animFPS": false,
             "userdefined_depth": false,
@@ -761,8 +761,8 @@
     ],
     "viewSettings":     {
         "id": "954e25ae-d597-495a-bffc-a0fdb8613efd",
-        "clearDisplayBuffer": true,
-        "clearViewBackground": true,
+        "clearDisplayBuffer": false,
+        "clearViewBackground": false,
         "enableViews": true,
         "inheritViewSettings": true,
         "modelName": "GMRoomViewSettings",

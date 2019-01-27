@@ -7,7 +7,8 @@
         "64d8bb7a-390e-4970-adb8-f0a68274d6cc",
         "cbe01b82-adfc-4a24-b3c1-db68aaee8ac5",
         "e6cd0bc9-2bd2-4e79-879b-0e438383d672",
-        "be31220f-0ee9-4356-b75d-cf10abd11900"
+        "be31220f-0ee9-4356-b75d-cf10abd11900",
+        "c189851e-03dc-4a5c-a448-808c82ef0386"
     ],
     "filterType": "GMScript",
     "folderName": "Dialog Scripts",

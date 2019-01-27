@@ -1,5 +1,5 @@
 {
-    "id": "ab113216-ae64-4f31-98a1-a3637fe4b96e",
+    "id": "ee9a39c2-c162-451e-9699-f4d6c7a06c17",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "multi_chance",

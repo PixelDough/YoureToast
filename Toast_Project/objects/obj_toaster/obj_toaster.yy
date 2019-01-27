@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_toaster",
     "eventList": [
-        
+        {
+            "id": "c77045f9-8856-4669-8621-e94be0e3cc99",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 10,
+            "eventtype": 7,
+            "m_owner": "142d7e4b-ae69-4855-8d0f-0b44a0100605"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

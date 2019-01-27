@@ -1,5 +1,5 @@
 {
-    "id": "a21726d1-eda8-4635-900c-d7fa4b5e0d00",
+    "id": "d7b55352-f1eb-4de8-bb7a-1caf374fe16d",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "d3d_set_fog",

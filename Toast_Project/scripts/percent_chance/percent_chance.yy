@@ -1,5 +1,5 @@
 {
-    "id": "ff8f6325-46b8-40e9-a878-0a3ac545929f",
+    "id": "da2c16ff-7eab-4070-a247-e7ef2aab3299",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "percent_chance",

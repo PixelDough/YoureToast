@@ -4,6 +4,9 @@ velocity = [0,0]
 width = 512;
 height = 288;
 
+width = 768;
+height = 432;
+
 camera_set_view_size(view_camera[0], width, height)
 
 x_off = 0;

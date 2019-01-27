@@ -24,10 +24,14 @@ if char < string_length(dialog[@ line, 2]) {
 	var _currentChar = string_char_at(dialog[@ line, 2], char);
 	if string_pos(_currentChar, ".,!?") {
 		charSpeed = 0.05;
+		pitch = 1;
 	} else {
 		charSpeed = 0.5;
+		pitch += random_range(-0.02, 0.02);
+		pitch = clamp(pitch, 0.75, 1.75);
 		if floor(char+charSpeed) > floor(char) and _currentChar!=" " {
-			play_sound(dialog[@ line, 3])
+			var _voice = play_sound(dialog[@ line, 3])
+			audio_sound_pitch(_voice, pitch)
 		}
 	}
 

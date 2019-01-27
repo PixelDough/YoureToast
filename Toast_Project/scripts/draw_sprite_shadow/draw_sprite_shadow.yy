@@ -1,5 +1,5 @@
 {
-    "id": "7cde77fb-4a94-44f5-905e-5c97f09e0b0a",
+    "id": "aa80cd5a-73ba-42b5-96e0-4e7ded7fb085",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "draw_sprite_shadow",
