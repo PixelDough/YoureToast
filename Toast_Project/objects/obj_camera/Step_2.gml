@@ -1,6 +1,5 @@
 
 if !instance_exists(obj_player) or (obj_player.state == PLAYER.DIE)
-	
 	exit;
 
 var _width = camera_get_view_width(view_camera[view_current]);
