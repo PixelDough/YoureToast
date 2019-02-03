@@ -1,6 +1,6 @@
 
-text_add(spr_profile_doc, F.SCARED, "Eurika! I did it! I gave life to a piece of toast!", snd_voice_doc)
-text_add(spr_profile_kid, F.CONFUSED, "Uh, doc... Why a piece of toast?", snd_voice_kid)
-text_add(spr_profile_doc, F.CONFUSED, "I was hungry... Anywho, check it out.", snd_voice_doc)
-text_add(spr_profile_doc, F.HAPPY, "Oh, I should open that door for it. It seems to want to get in that toaster.", snd_voice_doc)
-text_add_script(door_open);
+text_add(spr_profile_doc, F.HAPPY, "Let's put our toasty friend to the test.", snd_voice_doc)
+text_add(spr_profile_kid, F.CONFUSED, "What are those striped blocks?", snd_voice_kid)
+text_add(spr_profile_doc, F.BLANK, "They are loose and will fall if the toast's weight is put on it.", snd_voice_doc)
+text_add(spr_profile_kid, F.SAD, "I see... I hope it doesn't crush itself...", snd_voice_kid)
+text_add(spr_profile_doc, F.BLANK, "Don't worry, if anything bad happens, or the toast gets stuck, I can just restart the test for it, with R!", snd_voice_doc)

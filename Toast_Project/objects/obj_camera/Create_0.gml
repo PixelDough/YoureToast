@@ -4,8 +4,8 @@ velocity = [0,0]
 width = 512;
 height = 288;
 
-//width = 768;
-//height = 432;
+width = 768;
+height = 432;
 
 camWait = 120;
 

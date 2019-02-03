@@ -5,7 +5,7 @@
     "name": "obj_lab",
     "eventList": [
         {
-            "id": "39460a5b-6973-48cb-a970-18389e0ec390",
+            "id": "a26422e5-7af3-4a13-aad3-f7116aee51cc",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

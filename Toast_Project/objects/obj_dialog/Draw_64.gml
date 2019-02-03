@@ -36,6 +36,8 @@ if char < string_length(dialog[@ line, 2]) {
 	}
 
 	char+=charSpeed;
+} else {
+	draw_sprite(spr_dialog_arrow, 0, room_width-10, 106);
 }
 
 draw_set_valign(fa_top)

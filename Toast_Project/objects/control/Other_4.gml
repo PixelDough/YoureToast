@@ -4,3 +4,5 @@ if room == parent {
 }
 
 //generate_tiles();
+
+display_set_gui_size(768, 432)

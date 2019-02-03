@@ -1,11 +1,7 @@
+/// @description 
 
-if !audio_is_playing(song) {
-	audio_stop_all();
-	//audio_play_sound(song, 100, true);
-}
+// Inherit the parent event
+event_inherited();
 
-with all {
-	if object_index == obj_block_basic {
-		sprite_index = other.blockSprite;
-	}
-}
+if room == level_demo_0
+	audio_stop_all()
