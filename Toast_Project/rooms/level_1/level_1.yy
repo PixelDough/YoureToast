@@ -7,7 +7,6 @@
     "inheritCreationOrder": true,
     "inheritLayers": true,
     "instanceCreationOrderIDs": [
-        "681b86e8-dc04-4058-9bcd-4a7dcceb1871",
         "75f514b9-970c-4334-ab06-f5418039893a",
         "c43e7384-beb1-4824-8764-8dce79391a5f",
         "88f05a2e-72ed-4162-8fc4-c350dee7ba0f",
@@ -104,6 +103,7 @@
         "d53b115d-4218-4d02-8aed-7c1544ca7927",
         "769fd571-fc44-49ca-aea9-a68eb37799e8",
         "3d4e1031-6a1a-47aa-920b-98659f9d48da",
+        "681b86e8-dc04-4058-9bcd-4a7dcceb1871",
         "ca5b2375-a43b-4cd6-94ab-442b06fe7284",
         "30357a70-0d37-416c-868e-b9c9ee662e0f",
         "36a930cf-d888-4cf6-80e5-59e33c68389c",
@@ -570,8 +570,8 @@
             "m_parentID": "9b356912-afec-46f3-afb4-20f84fab69e2",
             "m_serialiseFrozen": false,
             "modelName": "GMRTileLayer",
-            "prev_tileheight": 0,
-            "prev_tilewidth": 0,
+            "prev_tileheight": 16,
+            "prev_tilewidth": 16,
             "mvc": "1.0",
             "tiles": {
                 "SerialiseData": null,

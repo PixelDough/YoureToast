@@ -3,6 +3,18 @@ if array_equals(dialog, []) {
 	script_execute(dialog_script);
 }
 
+var _currentChar = string_char_at(dialog[@ line, 2], char);
+	
+if _currentChar == "@" {
+	dialog[@ line, 2] = string_delete(dialog[@ line, 2], char, 1);
+	switch(string_char_at(dialog[@ line, 2], char)) {
+		case "s":
+			dialog_next_line();
+		break;
+	}
+	dialog[@ line, 2] = string_delete(dialog[@ line, 2], char, 1);
+}
+
 if keyboard_check_pressed(vk_down) {
 	// Check if the line has finished typing.
 	if char >= string_length(dialog[@ line, 2]) {
@@ -22,9 +34,7 @@ if keyboard_check_pressed(vk_down) {
 		if line >= array_height_2d(dialog)-1 {
 			instance_destroy();
 		} else {
-			line = min(line+1, array_height_2d(dialog)-1);
-			char = 0;
-			finalText = "";
+			dialog_next_line();
 		}
 	} else {
 		// Skip char to the end of the line.

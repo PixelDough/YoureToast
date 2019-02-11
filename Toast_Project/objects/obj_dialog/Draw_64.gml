@@ -22,6 +22,7 @@ draw_text_ext(112, 63, string_copy(dialog[@ line, 2], 0, char), font_get_size(gl
 
 if char < string_length(dialog[@ line, 2]) {
 	var _currentChar = string_char_at(dialog[@ line, 2], char);
+	
 	if string_pos(_currentChar, ".,!?") {
 		charSpeed = 0.05;
 		pitch = 1;

@@ -1,4 +1,7 @@
 
+
+
+//Text
 draw_set_font(global.fnt_text)
 draw_set_color(c_white);
 draw_set_halign(fa_center)
@@ -15,12 +18,11 @@ for (var _m=0; _m<array_length_1d(menu_title); _m++) {
 	var _text_y = room_height/2 + (_m*string_height(_menu_title_m[0])*2);
 	
 	if SEL == _m {
-		//var _sprite_x_0 = room_width/2 - string_width(_menu_title_m[0])/2 - sprite_get_width(spr_player_walk)*2;
-		//var _sprite_x_1 = room_width/2 + string_width(_menu_title_m[0])/2 + sprite_get_width(spr_player_walk)*2;
-		//draw_sprite_ext(spr_player_walk, 0, _sprite_x_0, _text_y, 2, 2, 0, c_white, 1);
-		//draw_sprite_ext(spr_player_walk, 0, _sprite_x_1, _text_y, 2, 2, 0, c_white, 1);
 		_menu_title_m[1] = lerp(_menu_title_m[1], 1.5, 0.3);
-		draw_set_color(c_yellow);
+		draw_set_color($68f8ff);
+		if keyboard_check_pressed(vk_enter) {
+			script_execute(_menu_title_m[2]);
+		}
 	} else {
 		_menu_title_m[1] = lerp(_menu_title_m[1], 1, 0.3);
 		draw_set_color(c_white);

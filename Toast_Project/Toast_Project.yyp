@@ -447,6 +447,14 @@
             }
         },
         {
+            "Key": "2e5e2d6a-7905-4807-91fd-015a08159114",
+            "Value": {
+                "id": "39df6600-2cbe-4463-9b38-3cb16bd9b4fa",
+                "resourcePath": "views\\2e5e2d6a-7905-4807-91fd-015a08159114.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2ee78cb8-6267-4946-8dab-d3bcfd88c8ed",
             "Value": {
                 "id": "164213e6-2cd4-4e06-979e-26e0a651ad5a",
@@ -991,6 +999,14 @@
             }
         },
         {
+            "Key": "601146ee-1df8-4070-b934-28ec99a80694",
+            "Value": {
+                "id": "43f639db-ca9a-454d-a504-fe61abf004ef",
+                "resourcePath": "scripts\\NewGame\\NewGame.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "60aa6dd7-f85c-49a1-8137-0088f112121f",
             "Value": {
                 "id": "cc1b4edf-0ff6-4ec4-af25-8bb243704b81",
@@ -1092,6 +1108,14 @@
                 "id": "0b2d0b61-7df7-4625-8c31-287fda6b6cb6",
                 "resourcePath": "views\\67a175b1-9bda-4924-b7ad-6af273bb076d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "692cec0d-2144-4084-beb1-bb1756796516",
+            "Value": {
+                "id": "0102f0d8-da3a-4519-92a2-b344936c4314",
+                "resourcePath": "scripts\\LevelSelect\\LevelSelect.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1340,6 +1364,14 @@
                 "id": "7f26cc34-1f52-4a6e-bc22-ba7e7f53e57c",
                 "resourcePath": "views\\821c97f9-4049-4e15-b105-a518856348a8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8395516c-cfd8-4680-99e1-f1fb5474d439",
+            "Value": {
+                "id": "3fc679d8-bb40-42d2-b74b-0ccc98b748c1",
+                "resourcePath": "scripts\\dialog_next_line\\dialog_next_line.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1707,6 +1739,14 @@
             "Value": {
                 "id": "7f953637-8d1e-4a4b-b5e5-74338f86a0ae",
                 "resourcePath": "scripts\\ds_list_reverse\\ds_list_reverse.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "aa6fd7d6-c89b-4358-8362-6f5c48bfcecf",
+            "Value": {
+                "id": "0a9e655c-07e3-4a36-80f4-8dcad0179fa6",
+                "resourcePath": "scripts\\Quit\\Quit.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2632,6 +2672,8 @@
         "64d8bb7a-390e-4970-adb8-f0a68274d6cc",
         "cbe01b82-adfc-4a24-b3c1-db68aaee8ac5",
         "c189851e-03dc-4a5c-a448-808c82ef0386",
+        "28fd03e6-80d4-42aa-b268-9b658ec3a448",
+        "8395516c-cfd8-4680-99e1-f1fb5474d439",
         "c3fd4745-b476-42d1-b633-580a36d63a69",
         "170e3893-8d91-435c-a186-0b604b2f4eda",
         "400f41ad-b4d7-489f-a91f-df9f2ccb0516",
@@ -2649,7 +2691,9 @@
         "ec2ddd50-516e-4f24-8b36-ca4e720855a8",
         "8f025129-2275-406c-9a83-8912689f22b6",
         "db57fc0b-ad7e-48e3-92bc-70bc600f1446",
-        "28fd03e6-80d4-42aa-b268-9b658ec3a448"
+        "601146ee-1df8-4070-b934-28ec99a80694",
+        "692cec0d-2144-4084-beb1-bb1756796516",
+        "aa6fd7d6-c89b-4358-8362-6f5c48bfcecf"
     ],
     "tutorial": ""
 }
